@@ -4,11 +4,15 @@ class Shoe
       @brand = brand
   end
   
-  def 
+  def brand
+    @brand
+  
+  def color=(color)
+    @color = color
+  end
   
   def color
     @color
-  end
   
   def size=(size)
     @size = size
